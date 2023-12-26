@@ -437,6 +437,9 @@
   (junction (at 50.8 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 54991dd8-948d-4c7d-883e-12b8affd76d9)
   )
+  (junction (at 106.68 97.79) (diameter 0) (color 0 0 0 0)
+    (uuid 5a40bfe2-cab0-4cad-aa2e-cb0691054101)
+  )
   (junction (at 140.97 54.61) (diameter 0) (color 0 0 0 0)
     (uuid 5ce6b1c9-83b3-4319-96b1-7d449fc8cb77)
   )
@@ -893,6 +896,10 @@
   (wire (pts (xy 58.42 119.38) (xy 58.42 123.19))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e94ca570-dc29-46fa-b489-affddc564cfa)
+  )
+  (wire (pts (xy 100.33 97.79) (xy 106.68 97.79))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ea2dcac7-8fd6-4720-ad59-e790f448f27b)
   )
   (wire (pts (xy 148.59 83.82) (xy 148.59 87.63))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1479,9 +1486,9 @@
   )
 
   (symbol (lib_id "Device:C") (at 54.61 111.76 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 6f83fdd0-f895-4ddd-9364-15df4a02f747)
-    (property "Reference" "C5" (id 0) (at 54.61 104.14 90))
+    (property "Reference" "C5" (id 0) (at 55.88 107.95 90))
     (property "Value" "C" (id 1) (at 54.61 106.68 90))
     (property "Footprint" "" (id 2) (at 58.42 110.7948 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -1831,24 +1838,6 @@
     (pin "2" (uuid 012f0368-5ee5-4ede-96a3-e76456be1691))
   )
 
-  (symbol (lib_id "Connector:TestPoint") (at 100.33 97.79 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid e4f5e833-bd66-408e-9e44-e86c4cae9dd1)
-    (property "Reference" "TP6" (id 0) (at 104.14 96.52 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "TP" (id 1) (at 102.87 92.71 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature" (id 2) (at 105.41 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 105.41 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1f6eae2b-f3ab-489e-9f78-66d0c72735f5))
-  )
-
   (symbol (lib_id "Device:R") (at 147.32 64.77 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e8036447-4926-4dd2-905a-5f2c12061d31)
@@ -2010,40 +1999,40 @@
       (reference "J2") (unit 1) (value "Conn_Coaxial") (footprint "Connector_Coaxial:SMA_Molex_73251-2200_Horizontal")
     )
     (path "/def8b72e-fbbd-46e9-89f4-bff1cb5066f5"
-      (reference "R1") (unit 1) (value "R") (footprint "")
+      (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/d56f53af-32a9-472e-ab62-a4dc803df050"
-      (reference "R2") (unit 1) (value "R") (footprint "")
+      (reference "R2") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/2621eb81-be0d-4acd-9497-945e9bf64969"
-      (reference "R3") (unit 1) (value "R") (footprint "")
+      (reference "R3") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/6dab46bf-c4a8-48ea-b715-2300c4a68659"
-      (reference "R4") (unit 1) (value "R") (footprint "")
+      (reference "R4") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/ff0a4f85-40b2-4d82-9f87-d1b32fbeaff3"
-      (reference "R5") (unit 1) (value "R") (footprint "")
+      (reference "R5") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/de59596e-de61-4ffa-8c51-f5d2a28ee4c2"
-      (reference "R6") (unit 1) (value "R") (footprint "")
+      (reference "R6") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/ae9f77ba-ec1e-4b24-b893-d5e1521d7fd3"
-      (reference "R7") (unit 1) (value "R") (footprint "")
+      (reference "R7") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/4cc01dc0-3205-401a-82be-db7290edd2e6"
-      (reference "R8") (unit 1) (value "R") (footprint "")
+      (reference "R8") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/46eb7cf3-2411-490d-b0f4-7542442e4cf1"
-      (reference "R9") (unit 1) (value "R") (footprint "")
+      (reference "R9") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/e8036447-4926-4dd2-905a-5f2c12061d31"
-      (reference "R10") (unit 1) (value "R") (footprint "")
+      (reference "R10") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/8422289f-75c4-4c53-b467-e4cef880ea76"
-      (reference "R11") (unit 1) (value "R") (footprint "")
+      (reference "R11") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/74d37617-d99f-4dd5-a3bf-6e98a78fa5a9"
-      (reference "R12") (unit 1) (value "R") (footprint "")
+      (reference "R12") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/098b68de-443d-466b-822a-e375f449270b"
       (reference "TP1") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
@@ -2059,9 +2048,6 @@
     )
     (path "/4f82d99b-e598-48c3-b298-1f50c20d5721"
       (reference "TP5") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
-    )
-    (path "/e4f5e833-bd66-408e-9e44-e86c4cae9dd1"
-      (reference "TP6") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
     )
     (path "/81743c60-0feb-46dc-af74-d2d264fedacf"
       (reference "TP7") (unit 1) (value "TP") (footprint "TestPoint:TestPoint_Keystone_5000-5004_Miniature")
