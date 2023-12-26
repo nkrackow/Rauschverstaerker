@@ -333,7 +333,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "dual_10Hz_test.kicad_pro",
+    "filename": "instrument_lowpass.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -412,16 +412,8 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "a2a33a3d-c501-4e33-b67b-7d07ef8aa4a7",
       ""
-    ],
-    [
-      "e2b2cf7d-378e-4025-81ea-47661040ec08",
-      "channel2"
-    ],
-    [
-      "8e7d7ae8-a4b2-406c-a8e6-380c0b160236",
-      "channel1"
     ]
   ],
   "text_variables": {}
