@@ -1,0 +1,1 @@
+- For all noise spectrum measurements in waveforms: Set channel sample mode to average! Per default it uses decimate which aliases all the noise of the full 100 MSps signal into the band you're looking at!
